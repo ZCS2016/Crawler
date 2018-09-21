@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: CrawlerServer
+  data:
+    mongodb:
+      database: crawler
+  jmx:
+    enabled: false
+server:
+  port: 8081
